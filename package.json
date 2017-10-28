@@ -1,0 +1,17 @@
+{
+  "name": "js-30",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ChrisW-B/js-30.git",
+  "author": "Chris Barry <me@chrisb.xyz>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-no-unsupported-browser-features": "^1.0.1",
+    "stylelint-order": "^0.7.0"
+  }
+}
