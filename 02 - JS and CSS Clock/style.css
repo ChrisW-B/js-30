@@ -36,8 +36,24 @@ body {
 
 .hand {
   background: black;
+  border-radius: 100px 0 0 100px;
   height: 6px;
   position: absolute;
   top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s cubic-bezier(0.31, 0.03, 0, 2.55);
   width: 50%;
+}
+
+.second-hand {
+  height: 3px;
+}
+
+.hour-hand {
+  background: linear-gradient(to left, black 66%, transparent 67%);
+}
+
+.minute-hand {
+  background: linear-gradient(to left, black 88%, transparent 89%);
 }
