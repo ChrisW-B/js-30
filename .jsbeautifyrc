@@ -21,8 +21,9 @@
     "newline_between_rules": true, // Add a new line after every css rule
     "selector_separator": " ",
     "max_preserve_newlines": 2,
-    "preserve_newlines": true,
-    "selector_separator_newline": false // Separate selectors with newline or not (e.g. "a,\nbr" or "a, br")
+    "preserve_newlines": false,
+    "selector_separator_newline": true, // Separate selectors with newline or not (e.g. "a,\nbr" or "a, br")
+    "space_around_combinator": true
   },
   "js": {
     "brace_style": "collapse,preserve-inline",
