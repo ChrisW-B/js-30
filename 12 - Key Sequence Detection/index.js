@@ -7,4 +7,4 @@ const keypress = (e) => {
   if (pressed.join(``).includes(secretCode)) cornify_add();
 }
 
-window.addEventListener(`keyup`, keypress)
+window.addEventListener(`keyup`, keypress);
