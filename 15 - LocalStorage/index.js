@@ -19,7 +19,7 @@ const toggleDone = ({ target }) => {
   if (!target.matches(`input`) || target.matches(`label`)) return;
   items[target.dataset.index].done = !items[target.dataset.index].done;
   localStorage.setItem(`items`, JSON.stringify(items));
-}
+};
 
 const toggleAll = ({ target }) => {
   const { type } = target.dataset;
